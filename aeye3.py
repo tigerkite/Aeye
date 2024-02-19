@@ -8,6 +8,8 @@ import cv2
 import tensorflow as tf
 import random
 
+pip install -r requirements.txt -t
+
 # Initialize boto3 S3 client
 s3_client = boto3.client('s3')
 
